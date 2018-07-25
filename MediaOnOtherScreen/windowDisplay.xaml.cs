@@ -91,7 +91,6 @@ namespace MediaOnOtherScreen
 
         private void TakeScreenShot()
         {
-            System.Drawing.Bitmap screen = new System.Drawing.Bitmap();
         }
     }
 }

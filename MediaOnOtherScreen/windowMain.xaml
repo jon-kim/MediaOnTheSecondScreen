@@ -28,7 +28,7 @@
             </MenuItem>
         </Menu>
         <GroupBox Header="Controls" DockPanel.Dock="Bottom">
-            <Button Content="Stop" Click="ButtonStop_Click" />
+            <Button Content="Stop" Click="ButtonStop_Click" Height="21" VerticalAlignment="Bottom" />
         </GroupBox>
         <ListBox Name="listBoxMedia" Margin="0 15" MouseDoubleClick="listBoxMedia_MouseDoubleClick" AllowDrop="True" DragEnter="listBoxMedia_DragEnter" DragDrop.Drop="listBoxMedia_Drop">
             <ListBox.ItemTemplate>

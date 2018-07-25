@@ -67,6 +67,7 @@ namespace MediaOnOtherScreen
                     this.DISPLAY.Clear();
                     this.DISPLAY.Screen = this.SelectedScreen;
                     this.DISPLAY.Mediainfo = listBoxMedia.SelectedItem as MediaInfo;
+                    this.DISPLAY.Activate();
                 }
                 else
                 {
